@@ -1,18 +1,19 @@
 import PropTypes from "prop-types";
+import colors from "../Type";
 
 function PokemonCard ({ pokemon })  {
 
   return (
-    <div>
+    <figure className="card" style={{backgroundColor : colors[pokemon.type]}}>
         {pokemon.imgSrc == undefined  ? 
         <p> ???</p> 
         :
         (
-        <figure>
+        <>
         <img src={pokemon.imgSrc} alt={pokemon.name} />
-        </figure> ) 
+        </> ) 
       } 
-    </div>
+    </figure>
     );}
 
     PokemonCard.propTypes = {
