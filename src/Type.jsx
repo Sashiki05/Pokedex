@@ -17,6 +17,7 @@ const colours = {
 	dark: '#705746',
 	steel: '#B7B7CE',
 	fairy: '#D685AD',
+	unknown: 'pink',
 };
 
 export default colours;

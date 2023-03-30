@@ -13,6 +13,7 @@ function PokemonCard ({ pokemon })  {
         <img src={pokemon.imgSrc} alt={pokemon.name} />
         </> ) 
       } 
+      <figcaption>{pokemon.name}</figcaption>
     </figure>
     );}
 
