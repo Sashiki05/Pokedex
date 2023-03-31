@@ -2,9 +2,15 @@ function NavBar({pokemonIndex, setPokemonIndex, pokemonList}) {
   
     const handlePrevClick = () => {setPokemonIndex( pokemonIndex- 1);};
    
-    const handleNextClick = () => {
-          setPokemonIndex(pokemonIndex + 1);
-    };
+    const handleNextClick = () => {setPokemonIndex(pokemonIndex + 1);};
+
+    if (pokemonIndex === 3) {
+        setTimeout(() => {  
+            alert("pika pikachu !!!")
+             }, 200);
+             }
+             []
+    
    
     return ( 
           <div className='buttons-container'>

@@ -72,11 +72,14 @@ button:focus-visible {
 .pokedex {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .buttons-container {
   display: flex;
+  margin-bottom: 28px;
 }
 
 button {
